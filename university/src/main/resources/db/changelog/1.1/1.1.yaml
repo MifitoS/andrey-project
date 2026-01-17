@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_index_student_for_group.sql
+      author: nikita.melnikov
+      sqlFile:
+        path: dictionary/create_index_student_for_group.sql
+        splitStatements: false
+        relativeToChangelogFile: true
