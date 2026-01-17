@@ -18,7 +18,6 @@ public class StudentController {
 
     @PostMapping(path = "/add")
     public void method(@RequestBody StudentRequestDTO student) {
-        System.out.println("ТЕСТ");
         studentService.add(student);
     }
 }
